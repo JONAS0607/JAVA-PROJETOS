@@ -1,0 +1,22 @@
+package empresa;
+
+import java.util.ArrayList;
+
+public class Principal {
+
+	//métodos são analogos a funções
+	public static void main(String[] args) {
+		
+		Turma nova = new Turma();
+		
+		
+		nova.orientador = new Professor();
+		nova.orientador.nome = "Jonas";
+		nova.listaAlunos = new ArrayList<Aluno>();
+		nova.listaAlunos.add(new Aluno());
+		
+		
+
+	}
+
+}

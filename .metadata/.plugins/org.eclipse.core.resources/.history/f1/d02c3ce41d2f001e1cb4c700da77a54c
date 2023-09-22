@@ -1,0 +1,14 @@
+package empresa;
+
+public class Carro {
+	String nome;
+	String modelo;
+	float velocidade;
+	
+	//Atributo statico pode ser acessado sem o objeto estar estânciado
+	static double PI =3.1415;
+	//Método statico também pode ser acessado
+	static float milhasParaMetros(float milhas) {
+		return milhas *1600;
+	}
+}

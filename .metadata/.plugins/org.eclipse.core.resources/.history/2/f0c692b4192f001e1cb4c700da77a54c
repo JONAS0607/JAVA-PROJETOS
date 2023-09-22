@@ -1,0 +1,18 @@
+package empresa;
+
+public class Principal {
+
+	//métodos são analogos a funções
+	public static void main(String[] args) {
+		System.out.println("Criado a classe de aluno:");
+		
+		Aluno objetoUmDeAluno = new Aluno();//instânciando um objeto de aluno
+		objetoUmDeAluno.nome = "Jonas";
+		objetoUmDeAluno.cpf = "01614346062";
+		objetoUmDeAluno.matricula = 001;
+		
+		//Usando o método para exibir os atributos
+		objetoUmDeAluno.info();
+	}
+
+}

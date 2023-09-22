@@ -1,0 +1,18 @@
+package empresa;
+
+public class Aluno {
+	int matricula;
+	String nome;
+	String cpf;
+	
+	Aluno(int parametro_matricula,String parametro_nome,String parametro_cpf){
+		matricula=parametro_matricula;
+		nome=parametro_nome;
+		cpf=parametro_cpf;
+	}
+	public void info() {
+		System.out.println("Nome: "+nome);
+		System.out.println("Matricula: "+matricula);
+		System.out.println("CPF: "+cpf+"\n\n");
+	}
+}

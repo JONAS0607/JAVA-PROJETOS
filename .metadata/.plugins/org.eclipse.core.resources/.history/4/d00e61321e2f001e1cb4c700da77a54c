@@ -1,0 +1,18 @@
+package empresa;
+
+public class Principal {
+
+	//métodos são analogos a funções
+	public static void main(String[] args) {
+		Carro carroUm = new Carro();
+		
+		
+		
+		System.out.println(Carro.PI);
+		//podemos acessar o método mesmo sem estar estânciado a um objeto.
+		System.out.println(Carro.milhasParaMetros(10));
+		
+
+	}
+
+}

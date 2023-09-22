@@ -1,0 +1,12 @@
+package empresa;
+
+public class Principal {
+
+	//linguagem fortemente tipada, pois temos que definir os tipos de retorno das funções
+	public static void main(String[] args) {
+		System.out.println("Alo mamãe!");
+		
+
+	}
+
+}

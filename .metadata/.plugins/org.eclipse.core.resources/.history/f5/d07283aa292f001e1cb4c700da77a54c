@@ -1,0 +1,30 @@
+package empresa;
+
+import java.util.ArrayList;
+
+public class Principal {
+
+	//métodos são analogos a funções
+	public static void main(String[] args) {
+		
+		Turma nova = new Turma();
+		
+		
+		nova.orientador = new Professor();
+		nova.orientador.nome = "Jonas";
+		nova.listaAlunos = new ArrayList<Aluno>();
+		Aluno primeiro = new Aluno();
+		primeiro.nome="Sabrina";
+		Aluno segundo = new Aluno();
+		primeiro.nome="Nicolle";
+		nova.listaAlunos.add(primeiro);
+		nova.listaAlunos.add(segundo);
+		
+		System.out.println(nova.listaAlunos.get(0).nome);
+		System.out.println(nova.listaAlunos.get(1).nome);
+		
+		
+
+	}
+
+}

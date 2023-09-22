@@ -1,0 +1,18 @@
+package empresa;
+
+public class Principal {
+
+	//linguagem fortemente tipada, pois temos que definir os tipos de retorno das funções
+	public static void main(String[] args) {
+		System.out.println("Alo mamãe!");
+	//VISÃO GERAL SOBRE O CÓDIGO JAVA
+	//VARIÁVEIS
+		int idade =54;
+		float peso = 70.5f;	
+		double pesoDouble = 70.5;
+		System.out.println("A idade é : "+idade+" o peso é : "+peso);
+		System.out.printf("A idade é : %d",idade+" o peso é : %f",pesoDouble);
+		
+	}
+
+}

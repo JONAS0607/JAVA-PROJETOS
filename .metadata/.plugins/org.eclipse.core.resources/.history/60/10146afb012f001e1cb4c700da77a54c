@@ -1,0 +1,21 @@
+package empresa;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		int peso;
+		double altura;
+		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Entre com o peso:");
+		peso = teclado.nextInt();
+		System.out.println("Entre com sua altura:");
+		altura = teclado.nextDouble();
+		
+		
+		
+		
+	}
+}
