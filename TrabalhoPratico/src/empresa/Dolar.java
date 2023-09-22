@@ -8,10 +8,10 @@ public class Dolar extends Moeda {
 
 	}
 
-	@Override
+	@Override 
 	public void info() {
 		super.info();
-		System.out.println("Info de Dolar");
+		System.out.println("Info de Dolar GitHub1234.");
 	}
 
 	@Override
