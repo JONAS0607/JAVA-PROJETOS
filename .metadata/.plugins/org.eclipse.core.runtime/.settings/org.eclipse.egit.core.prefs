@@ -1,5 +1,7 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\TIBIA\\OneDrive - UNINTER - Aluno\\Documentos\\GitHub\\TesteJavaVsCode\\JavaTesteVS\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\Users\\TIBIA\\OneDrive - UNINTER - Aluno\\Documentos\\GitHub\\TesteJavaVsCode\\JavaTesteVS\\.git;
+GitRepositoriesView.GitDirectories=D\:\\eclipse\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;
+RepositoryGroups.uuids=
+RepositorySearchDialogSearchPath=D\:\\eclipse
 core_defaultRepositoryDir=C\:\\Users\\TIBIA\\OneDrive - UNINTER - Aluno\\Documentos\\GitHub
 core_ssh_default_agent=\\\\.\\pageant
 eclipse.preferences.version=1
